@@ -1,0 +1,195 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+.box1 {
+  width: 70vw;
+  height: 20vw;
+  background-color: green;
+  margin-left: 15vw;
+  margin-top: -55vw;
+}
+.box2 {
+  width: 70vw;
+  height: 20vw;
+  background-color: gray;
+  margin-left: 15vw;
+
+}
+.box3 {
+  width: 3.75vw;
+  height: 100vw;
+  background-color: gray;
+  margin-left: 0vw;
+  margin-top: 0vw;
+}
+
+.box4 {
+  width: 3.75vw;
+  height: 100vw;
+  background-color: green;
+  margin-left: 3.75vw;
+  margin-top:-100vw;
+  position:absolute;
+}
+.box5 {
+  width: 3.75vw;
+  height: 100vw;
+  background-color: gray;
+  margin-left: 7.5vw;
+  margin-top: -100vw;
+}
+.box6 {
+  width: 3.75vw;
+  height: 100vw;
+  background-color: red;
+  margin-left: 11.25vw;
+  margin-top: -100vw;
+}
+
+.box7 {
+  width: 50vw;
+  height: 10vw;
+  background-color: gray;
+  margin-left: 20vw;
+  margin-top: 0vw;
+}
+
+.teeth {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translateX(-50%) translateY(-80%) scale(1.5);
+  text-align: center;
+}
+
+.teeth2 {
+  padding-top: 60px;
+}
+
+.tooth1-1, .tooth1-8 {
+  position: relative;
+  bottom: 160px;
+  left: 18px;
+}
+.tooth1-2, .tooth1-7 {
+  position: relative;
+  bottom: 100px;
+  left: 18px;
+}
+.tooth1-3, .tooth1-6 {
+  position: relative;
+  bottom: 50px;
+  left: 18px;
+}
+.tooth1-4, .tooth1-5 {
+  position: relative;
+  bottom: 0px;
+  left: 18px;
+}
+
+.tooth2-1 {
+  position: relative;
+  bottom: 70px;
+}
+.tooth2-8 {
+  position: relative;
+  bottom: 80px;
+}
+.tooth2-2, .tooth2-7 {
+  position: relative;
+  bottom: 32px;
+}
+.tooth2-3 {
+  position: relative;
+  bottom: 6px;
+}
+.tooth2-4, .tooth2-5, .tooth2-6 {
+  position: relative;
+  bottom: 0px;
+}
+.toolsLeft {
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+}
+.toolsRight {
+  height: 54vh;
+  position: absolute;
+  bottom: -10px;
+  right: 60px;
+}
+.logo {
+  height: 54vh;
+  position: absolute;
+  top: -200px;
+  right: -247px;
+  transform: scale(0.3);
+}
+.writing {
+  font-size:100pt;
+  font-family:'Le murmure';
+  color: white;
+  text-align: center;
+  margin-top: 800px;
+}
+.finishline {
+  width: 50vw;
+  height: 2vw;
+  border: 4px solid white;
+  margin-top:80px;
+  margin-left: 25vw;
+}
+.stuff {
+  position: absolute;
+  margin-left: 40vw;
+  padding-top: 200px;
+  transform: scale(2);
+}
+.stuff2 {
+  position: absolute;
+  margin-left: 60vw;
+  padding-top: 310px;
+  transform: scale(2.5);
+}
+.stuff3 {
+  position: absolute;
+  margin-left: 75vw;
+  padding-top: 200px;
+
+}
+.stuff4 {
+  position: absolute;
+  margin-left: 25vw;
+  padding-top: 500px;
+
+}
+.stuff5 {
+  position: absolute;
+  margin-left: 25vw;
+  padding-top: 150px;
+  transform: scale(2);
+}
+.stuff6 {
+  position: absolute;
+  margin-left: 47vw;
+  padding-top: 653px;
+  transform: scale(1);
+}
+.stuff7 {
+  position: absolute;
+  margin-left: 64vw;
+  padding-top: 125px;
+  transform: scale(3.5);
+}

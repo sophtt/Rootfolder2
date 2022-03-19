@@ -1,0 +1,31 @@
+$(document).ready(function(){
+    $(".stuff2").click(function(){
+        $(".stuff2").fadeOut(3000);
+ });
+ $(".stuff").click(function(){
+     $(".stuff").fadeOut(3000);
+});
+$(".stuff1").click(function(){
+    $(".stuff1").fadeOut(3000);
+});
+$(".stuff3").click(function(){
+    $(".stuff3").fadeOut(3000);
+});
+$(".stuff4").click(function(){
+    $(".stuff4").fadeOut(3000);
+});
+$(".stuff5").click(function(){
+    $(".stuff5").fadeOut(3000);
+});
+$(".stuff6").click(function(){
+    $(".stuff6").fadeOut(3000);
+});
+$(".stuff7").click(function(){
+    $(".stuff7").fadeOut(3000);
+});
+});
+$(".skillbar").each(function(){
+  $(this).find(".skillbar").animate({
+    width:$(this).attr()
+  })
+}
