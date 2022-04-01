@@ -24,8 +24,3 @@ $(".stuff7").click(function(){
     $(".stuff7").fadeOut(3000);
 });
 });
-$(".skillbar").each(function(){
-  $(this).find(".skillbar").animate({
-    width:$(this).attr()
-  })
-}
