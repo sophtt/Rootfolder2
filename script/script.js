@@ -19,6 +19,18 @@ $('#spipei').click(function () {
     spipewatered = !spipewatered;
     updateProgress();
 })
+$('#apipes').click(function () {
+    if (apipeopened) {
+        $('#apipesi').attr("src", "img/apipes.svg");
+    } else {
+        $('#apipesi').attr("src", "img/apipesw.svg");
+    }
+    score++;
+    apipeopened = !apipeopened;
+    updateProgress();
+})
+
+
 
 $('#s1').droppable({
     drop: function () {
@@ -99,6 +111,3 @@ function updateProgress() {
         $("#logo").css("opacity", 0);
     }
 }
-
-
-
