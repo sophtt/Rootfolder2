@@ -21,6 +21,7 @@ td {
 #logo {
   width: 5%;
   float: left;
+  right: 3vw;
 }
 
 .writing {
@@ -45,13 +46,15 @@ td {
 
 #breaks {
   margin-bottom: 0;
+
 }
 
 #kuret {
   margin-bottom: 0;
+
 }
 
 #spipe {
   margin-bottom: 0;
+  
 }
-
